@@ -1,0 +1,18 @@
+{
+  "name": "IAmBotv3",
+  "version": "3.0.0",
+  "description": "The third bot i am making... however, from sratch again. ",
+  "main": "index.js",
+  "repository": "https://github.com/MRSS02/IAmBotv3",
+  "author": "MRSS02",
+  "license": "GPL",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node .",
+    "deploy": "node deploy-commands.js"
+  }
+}
